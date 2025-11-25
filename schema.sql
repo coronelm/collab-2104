@@ -5,3 +5,6 @@ CREATE TABLE grades (
   subjectid INT,
   score DECIMAL(5,2)
 );
+INSERT INTO grades (studentid, subjectid, score) VALUES (1, 101, 89.5);
+INSERT INTO grades (studentid, subjectid, score) VALUES (2, 102, 76.0);
+INSERT INTO grades (studentid, subjectid, score) VALUES (3, 103, 92.0);
