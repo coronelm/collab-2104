@@ -9,3 +9,4 @@ INSERT INTO grades (studentid, subjectid, score) VALUES (1, 101, 89.5);
 INSERT INTO grades (studentid, subjectid, score) VALUES (2, 102, 76.0);
 INSERT INTO grades (studentid, subjectid, score) VALUES (3, 103, 92.0);
 ALTER TABLE grades ADD COLUMN remarks VARCHAR(20);
+UPDATE grades SET remarks = 'Passed' WHERE gradeid = 1;
