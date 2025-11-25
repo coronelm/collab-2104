@@ -5,3 +5,4 @@ INSERT INTO enrollments (enrollment_id, student_id, class_id) VALUES (1, 1001, 2
 INSERT INTO enrollments (enrollment_id, student_id, class_id) VALUES (2, 1002, 2002);
 INSERT INTO enrollments (enrollment_id, student_id, class_id) VALUES (3, 1003, 2003);
 ALTER TABLE enrollments ADD school_year VARCHAR(20);
+CREATE TABLE teachers(teachers_id INT PRIMARY KEY, teachers_name VARCHAR(100), subject VARCHAR(50) );
