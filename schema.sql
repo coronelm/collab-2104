@@ -4,3 +4,4 @@ INSERT INTO fees (student_id, amount) VALUES (101, 1500.00);
 INSERT INTO fees (student_id, amount) VALUES (102, 2000.00);
 INSERT INTO fees (student_id, amount) VALUES (103, 1750.50);
 ALTER TABLE fees ADD COLUMN payment_status VARCHAR(20) DEFAULT 'pending';
+UPDATE fees SET payment_status = 'paid' WHERE student_id = 102;
