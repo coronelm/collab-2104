@@ -1,1 +1,2 @@
-CREATE DATABASE school_db; USE school_db;
+ALTER TABLE enrollments
+ADD school_year VARCHAR(20);
