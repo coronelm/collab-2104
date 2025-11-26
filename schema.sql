@@ -4,3 +4,6 @@ INSERT INTO departments VALUES (1, 'CICS');
 INSERT INTO departments VALUES (2, 'CABE');
 INSERT INTO departments VALUES (3, 'CAS');
 ALTER TABLE departments ADD head_teacher VARCHAR(50);
+UPDATE departments SET head_teacher='Ms. Coronel' WHERE dept_id=1;
+UPDATE departments SET head_teacher='Mr. Hernandez' WHERE dept_id=2;
+UPDATE departments SET head_teacher='Mrs. Dalangin' WHERE dept_id=3;
