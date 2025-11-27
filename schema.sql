@@ -15,3 +15,4 @@ INSERT INTO attendance(attendance_id, student_id, date, status) VALUES (0001, 01
 =======
 
 ALTER TABLE attendance ADD column remarks VARCHAR(100);
+UPDATE attendance SET status = 'Absent' WHERE attendance_id = 0001;
