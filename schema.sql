@@ -14,3 +14,4 @@ INSERT INTO attendance(attendance_id, student_id, date, status) VALUES (0001,000
 INSERT INTO attendance(attendance_id, student_id, date, status) VALUES (0001, 01, 2025-11-30, 'Present') (0002, 02, 2025-11-29, 'Present'), (0003, 03, 2025-11-30, 'Present');
 =======
 
+ALTER TABLE attendance ADD column remarks VARCHAR(100);
