@@ -12,3 +12,4 @@ VALUES
 (1, 'Computer Programming'),
 (2, 'OOP'),
 (3, 'Computer Networking');
+ALTER TABLE subjects ADD COLUMN units INT;
