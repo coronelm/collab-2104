@@ -14,3 +14,4 @@ VALUES
 (3, 'Computer Networking');
 ALTER TABLE subjects ADD COLUMN units INT;
 ALTER TABLE subjects ADD COLUMN units INT;
+UPDATE subjects SET units = 3 WHERE subject_id = 2;
