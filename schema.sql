@@ -5,3 +5,6 @@ INSERT INTO enrollments (enrollment_id, student_id, class_id) VALUES (2, 1002, 2
 INSERT INTO enrollments (enrollment_id, student_id, class_id) VALUES (3, 1003, 2003);
 ALTER TABLE enrollments ADD school_year VARCHAR(20);
 UPDATE enrollments SET school_year = '2025-2026' WHERE enrollment_id = 1;
+UPDATE enrollments SET school_year = '2025-2026' WHERE enrollment_id = 2;
+UPDATE enrollments SET school_year = '2025-2026' WHERE enrollment_id = 3;
+
