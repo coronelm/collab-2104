@@ -30,3 +30,4 @@ INSERT INTO subjects (subject_id, subject_name) VALUES (1, 'Computer Programming
 ALTER TABLE subjects ADD COLUMN units INT;
 >>>>>>> 3e85a0cdeeff770b80aa77ebc9de375e989f9cfe
 UPDATE subjects SET units = 3 WHERE subject_id = 2;
+Update subjects SET units = 3 WHERE subject_id = 2;
