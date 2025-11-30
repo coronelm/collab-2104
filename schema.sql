@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CREATE DATABASE school_db; USE school_db;
 CREATE DATABASE school_db; USE school_db;
 CREATE TABLE enrollments ( enrollment_id INT PRIMARY KEY, student_id INT, class_id INT );
@@ -22,3 +23,9 @@ ALTER TABLE subjects ADD COLUMN units INT;
 >>>>>>> d4e5720116c4a7b459c8f896c32d440222e03e9f
 UPDATE subjects SET units = 3 WHERE subject_id = 2;
 UPDATE subjects SET units = 3 WHERE subject_id = 2;
+=======
+CREATE DATABASE school_db; USE school_db
+CREATE TABLE subjects ( subject_id INT PRIMARY KEY, subject_name VARCHAR(100));
+INSERT INTO subjects (subject_id, subject_name) VALUES (1, 'Computer Programming'), (2, 'OOP'), (3, 'Computer Networking');
+ALTER TABLE subjects ADD COLUMN units INT;
+>>>>>>> 3e85a0cdeeff770b80aa77ebc9de375e989f9cfe
