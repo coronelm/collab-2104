@@ -29,3 +29,4 @@ CREATE TABLE subjects ( subject_id INT PRIMARY KEY, subject_name VARCHAR(100));
 INSERT INTO subjects (subject_id, subject_name) VALUES (1, 'Computer Programming'), (2, 'OOP'), (3, 'Computer Networking');
 ALTER TABLE subjects ADD COLUMN units INT;
 >>>>>>> 3e85a0cdeeff770b80aa77ebc9de375e989f9cfe
+UPDATE subjects SET units = 3 WHERE subject_id = 2;
